@@ -1,13 +1,9 @@
 services:
   - type: web
     name: clinical-trials-dashboard
-    env: static
-    buildCommand: npm run build
-    staticPublishPath: ./dist
-    headers:
-      - path: /*
-        name: Cache-Control
-        value: public, max-age=31536000, immutable
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
     routes:
       - type: rewrite
         source: /*
