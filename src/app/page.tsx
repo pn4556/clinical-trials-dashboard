@@ -2044,6 +2044,63 @@ export default function PharmaDashboard() {
             <p className="text-slate-500">Try adjusting your search or filters</p>
           </div>
         )}
+
+        {/* Resources & References Section */}
+        <div className="mt-12 bg-white rounded-xl border border-slate-200 shadow-sm p-6">
+          <h3 className="text-lg font-semibold text-slate-900 mb-4 flex items-center gap-2">
+            <Globe className="w-5 h-5 text-blue-600" />
+            Resources & References
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <a 
+              href="https://www.clinicaltrials.gov" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 p-4 rounded-lg border border-slate-200 hover:border-blue-300 hover:bg-blue-50 transition-colors group"
+            >
+              <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center group-hover:bg-blue-200 transition-colors">
+                <FlaskConical className="w-5 h-5 text-blue-600" />
+              </div>
+              <div>
+                <p className="font-medium text-slate-900">ClinicalTrials.gov</p>
+                <p className="text-xs text-slate-500">US National Library of Medicine</p>
+              </div>
+            </a>
+            
+            <a 
+              href="https://www.mayo.edu" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 p-4 rounded-lg border border-slate-200 hover:border-emerald-300 hover:bg-emerald-50 transition-colors group"
+            >
+              <div className="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center group-hover:bg-emerald-200 transition-colors">
+                <HeartPulse className="w-5 h-5 text-emerald-600" />
+              </div>
+              <div>
+                <p className="font-medium text-slate-900">Mayo Clinic</p>
+                <p className="text-xs text-slate-500">Medical Research & Education</p>
+              </div>
+            </a>
+            
+            <a 
+              href="https://www.ncbi.nlm.nih.gov" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 p-4 rounded-lg border border-slate-200 hover:border-violet-300 hover:bg-violet-50 transition-colors group"
+            >
+              <div className="w-10 h-10 rounded-lg bg-violet-100 flex items-center justify-center group-hover:bg-violet-200 transition-colors">
+                <Microscope className="w-5 h-5 text-violet-600" />
+              </div>
+              <div>
+                <p className="font-medium text-slate-900">NCBI</p>
+                <p className="text-xs text-slate-500">National Center for Biotechnology</p>
+              </div>
+            </a>
+          </div>
+          <p className="text-xs text-slate-500 mt-4 text-center">
+            Data sources and references for clinical trial information, medical research, and biotechnology research
+          </p>
+        </div>
       </main>
     </div>
   )
