@@ -1221,6 +1221,276 @@ const UPCOMING_TRIALS = [
     keyInvestigators: ['Dr. Haydar Frangoul - Sarah Cannon', 'Dr. Alexis Thompson - Children\'s Hospital Philly'],
     marketOpportunity: 2100000000,
     status: 'Active, recruiting'
+  },
+  {
+    id: 'NCT05657891',
+    title: 'Bispecific Antibody for Non-Small Cell Lung Cancer',
+    company: 'ImmunoCore Bio',
+    drug: 'IMC-LUNG-2024',
+    phase: 'Phase 3',
+    indication: 'Non-Small Cell Lung Cancer',
+    therapeuticArea: 'Oncology',
+    enrollment: {
+      current: 892,
+      target: 1200,
+      screening: 178,
+      randomized: 892
+    },
+    locations: 68,
+    countries: ['USA', 'Canada', 'EU', 'Japan', 'China'],
+    startDate: '2022-07-15',
+    estimatedCompletion: '2025-06-30',
+    primaryEndpoint: 'Progression-Free Survival (PFS)',
+    secondaryEndpoints: ['Overall Survival', 'Objective Response Rate', 'Duration of Response', 'Safety Profile'],
+    studyDuration: '36 months',
+    retentionRate: 89,
+    dropoutRate: 11,
+    safetyProfile: 'Cytokine release syndrome managed with standard care',
+    previousResults: 'Phase 2: Median PFS 14.2 months vs 5.8 months standard of care',
+    mechanism: 'PD-1/CTLA-4 bispecific antibody with enhanced tumor penetration',
+    keyInvestigators: ['Dr. Matthew Hellmann - Memorial Sloan Kettering', 'Dr. Julie Brahmer - Johns Hopkins'],
+    marketOpportunity: 5800000000,
+    status: 'Active, recruiting'
+  },
+  {
+    id: 'NCT05589234',
+    title: 'RNA-Based Vaccine for Respiratory Syncytial Virus',
+    company: 'Moderna',
+    drug: 'mRNA-1345',
+    phase: 'Phase 3',
+    indication: 'RSV Infection',
+    therapeuticArea: 'Infectious Disease',
+    enrollment: {
+      current: 3420,
+      target: 3600,
+      screening: 450,
+      randomized: 3420
+    },
+    locations: 210,
+    countries: ['USA', 'Canada', 'EU', 'UK', 'Australia'],
+    startDate: '2021-11-01',
+    estimatedCompletion: '2024-09-15',
+    primaryEndpoint: 'Prevention of RSV-LRTD in Adults 60+',
+    secondaryEndpoints: ['Prevention of Severe RSV-LRTD', 'Safety in Immunocompromised', 'Duration of Protection'],
+    studyDuration: '24 months',
+    retentionRate: 94,
+    dropoutRate: 6,
+    safetyProfile: 'Mild to moderate local reactions, no serious safety signals',
+    previousResults: 'Phase 2: 83.7% efficacy against RSV-LRTD, 93.4% against severe disease',
+    mechanism: 'Lipid nanoparticle encapsulated mRNA encoding RSV prefusion F protein',
+    keyInvestigators: ['Dr. Kathleen Neuzil - University of Maryland', 'Dr. Stanley Plotkin - Wistar Institute'],
+    marketOpportunity: 4200000000,
+    status: 'Active, not recruiting'
+  },
+  {
+    id: 'NCT05712345',
+    title: 'IL-17 Inhibitor for Psoriatic Arthritis',
+    company: 'ImmunoPharm Inc',
+    drug: 'IP-17X',
+    phase: 'Phase 3',
+    indication: 'Psoriatic Arthritis',
+    therapeuticArea: 'Immunology',
+    enrollment: {
+      current: 756,
+      target: 900,
+      screening: 145,
+      randomized: 756
+    },
+    locations: 92,
+    countries: ['USA', 'Canada', 'EU', 'Japan'],
+    startDate: '2022-09-20',
+    estimatedCompletion: '2025-12-01',
+    primaryEndpoint: 'ACR20 Response at Week 16',
+    secondaryEndpoints: ['ACR50', 'ACR70', 'PASI 90', 'Enthesitis Resolution', 'Dactylitis Count'],
+    studyDuration: '52 weeks',
+    retentionRate: 91,
+    dropoutRate: 9,
+    safetyProfile: 'Low infection rates, manageable injection site reactions',
+    previousResults: 'Phase 2: 68% ACR20, 42% ACR50 at Week 16',
+    mechanism: 'Selective IL-17A inhibitor with extended half-life for quarterly dosing',
+    keyInvestigators: ['Dr. Philip Mease - Swedish Medical Center', 'Dr. Dafna Gladman - University of Toronto'],
+    marketOpportunity: 3800000000,
+    status: 'Active, recruiting'
+  },
+  {
+    id: 'NCT05456789',
+    title: 'AAV Gene Therapy for Hemophilia A',
+    company: 'GeneCure Therapeutics',
+    drug: 'GC-HEMA-A',
+    phase: 'Phase 1/2',
+    indication: 'Hemophilia A',
+    therapeuticArea: 'Gene Therapy',
+    enrollment: {
+      current: 12,
+      target: 24,
+      screening: 8,
+      randomized: 12
+    },
+    locations: 6,
+    countries: ['USA', 'Canada', 'UK'],
+    startDate: '2023-11-05',
+    estimatedCompletion: '2027-03-30',
+    primaryEndpoint: 'Factor VIII Expression Level at Month 12',
+    secondaryEndpoints: ['Annualized Bleeding Rate', 'Factor VIII Usage', 'Immunogenicity', 'Liver Enzymes'],
+    studyDuration: '48 months',
+    retentionRate: 100,
+    dropoutRate: 0,
+    safetyProfile: 'No treatment-related SAEs, transient LFT elevations',
+    previousResults: 'Preclinical: Sustained FVIII expression, therapeutic levels in animal models',
+    mechanism: 'AAV5 vector encoding B-domain deleted human FVIII with liver-specific promoter',
+    keyInvestigators: ['Dr. Steven Pipe - University of Michigan', 'Dr. Michael Makris - University of Sheffield'],
+    marketOpportunity: 2500000000,
+    status: 'Active, recruiting'
+  },
+  {
+    id: 'NCT05689012',
+    title: 'Anti-FGF23 Antibody for Tumor-Induced Osteomalacia',
+    company: 'RareCure Pharma',
+    drug: 'RC-FGF23-01',
+    phase: 'Phase 2',
+    indication: 'Tumor-Induced Osteomalacia',
+    therapeuticArea: 'Rare Disease',
+    enrollment: {
+      current: 28,
+      target: 48,
+      screening: 15,
+      randomized: 28
+    },
+    locations: 18,
+    countries: ['USA', 'Canada', 'EU', 'Japan', 'Australia'],
+    startDate: '2023-04-12',
+    estimatedCompletion: '2026-08-20',
+    primaryEndpoint: 'Serum Phosphorus Normalization Rate',
+    secondaryEndpoints: ['Bone Pain Score', 'Walking Distance', 'Fracture Healing', 'Quality of Life'],
+    studyDuration: '24 months',
+    retentionRate: 96,
+    dropoutRate: 4,
+    safetyProfile: 'Mild injection site reactions, well-tolerated',
+    previousResults: 'Phase 1: Normalized phosphate in 88% of patients within 12 weeks',
+    mechanism: 'Fully human monoclonal antibody neutralizing FGF23 hormone',
+    keyInvestigators: ['Dr. Michael Collins - NIH', 'Dr. Thomas Carpenter - Yale University'],
+    marketOpportunity: 650000000,
+    status: 'Active, recruiting'
+  },
+  {
+    id: 'NCT05734567',
+    title: 'Anti-amyloid-beta Vaccine for Early Alzheimer\'s Prevention',
+    company: 'NeuroVax Biologics',
+    drug: 'NV-ABETA-01',
+    phase: 'Phase 2',
+    indication: 'Preclinical Alzheimer\'s Disease',
+    therapeuticArea: 'Neuroscience',
+    enrollment: {
+      current: 145,
+      target: 250,
+      screening: 65,
+      randomized: 145
+    },
+    locations: 38,
+    countries: ['USA', 'Canada', 'EU', 'Australia'],
+    startDate: '2023-08-01',
+    estimatedCompletion: '2026-11-15',
+    primaryEndpoint: 'Amyloid Plaque Reduction (Centiloid)',
+    secondaryEndpoints: ['Cognitive Decline Rate', 'CSF Biomarkers', 'Tau PET', 'Brain Atrophy Rate'],
+    studyDuration: '36 months',
+    retentionRate: 87,
+    dropoutRate: 13,
+    safetyProfile: 'No ARIA-E observed, mild flu-like symptoms',
+    previousResults: 'Phase 1: 45% amyloid reduction, no serious AEs',
+    mechanism: 'Active immunization with Aβ1-42 peptide conjugate vaccine',
+    keyInvestigators: ['Dr. Randall Bateman - Washington University', 'Dr. Reisa Sperling - Brigham and Women\'s'],
+    marketOpportunity: 8500000000,
+    status: 'Active, recruiting'
+  },
+  {
+    id: 'NCT05545678',
+    title: 'GLP-1/GIP Dual Agonist for Obesity',
+    company: 'Metabolic Innovations',
+    drug: 'MI-GLP-GIP-01',
+    phase: 'Phase 2',
+    indication: 'Obesity',
+    therapeuticArea: 'Metabolic',
+    enrollment: {
+      current: 234,
+      target: 320,
+      screening: 89,
+      randomized: 234
+    },
+    locations: 52,
+    countries: ['USA', 'Canada', 'EU', 'UK'],
+    startDate: '2023-02-15',
+    estimatedCompletion: '2025-08-10',
+    primaryEndpoint: 'Percent Body Weight Change at Week 52',
+    secondaryEndpoints: ['Proportion Achieving ≥15% Weight Loss', 'Cardiometabolic Parameters', 'Quality of Life'],
+    studyDuration: '60 weeks',
+    retentionRate: 89,
+    dropoutRate: 11,
+    safetyProfile: 'GI events manageable, no gallbladder or pancreatic concerns',
+    previousResults: 'Phase 1: 18.2% weight loss at 12 weeks, superior to GLP-1 alone',
+    mechanism: 'Novel dual agonist with optimized GIP/GLP-1 receptor activation ratio',
+    keyInvestigators: ['Dr. Robert Kushner - Northwestern', 'Dr. Caroline Apovian - Boston University'],
+    marketOpportunity: 12000000000,
+    status: 'Active, recruiting'
+  },
+  {
+    id: 'NCT05612345',
+    title: 'HER2-Targeted ADC for Gastric Cancer',
+    company: 'OncoLink Therapeutics',
+    drug: 'OL-HER2-ADC',
+    phase: 'Phase 2',
+    indication: 'HER2+ Gastric Cancer',
+    therapeuticArea: 'Oncology',
+    enrollment: {
+      current: 78,
+      target: 110,
+      screening: 32,
+      randomized: 78
+    },
+    locations: 28,
+    countries: ['USA', 'Canada', 'EU', 'South Korea', 'Japan'],
+    startDate: '2023-05-20',
+    estimatedCompletion: '2025-10-30',
+    primaryEndpoint: 'Objective Response Rate in 3L+ Setting',
+    secondaryEndpoints: ['Disease Control Rate', 'PFS', 'OS', 'Safety in Pre-treated Patients'],
+    studyDuration: '24 months',
+    retentionRate: 84,
+    dropoutRate: 16,
+    safetyProfile: 'Manageable ocular toxicity, low incidence of ILD',
+    previousResults: 'Phase 1: 58% ORR in heavily pre-treated HER2+ gastric cancer',
+    mechanism: 'Novel HER2-targeting ADC with cleavable linker and topoisomerase I payload',
+    keyInvestigators: ['Dr. Yelena Janjigian - Memorial Sloan Kettering', 'Dr. Jaffer Ajani - MD Anderson'],
+    marketOpportunity: 1800000000,
+    status: 'Active, recruiting'
+  },
+  {
+    id: 'NCT05789012',
+    title: 'FcRn Antagonist for Myasthenia Gravis',
+    company: 'AutoImmune Solutions',
+    drug: 'AIS-FCRN-01',
+    phase: 'Phase 3',
+    indication: 'Generalized Myasthenia Gravis',
+    therapeuticArea: 'Immunology',
+    enrollment: {
+      current: 412,
+      target: 480,
+      screening: 98,
+      randomized: 412
+    },
+    locations: 74,
+    countries: ['USA', 'Canada', 'EU', 'Japan', 'Australia'],
+    startDate: '2022-12-10',
+    estimatedCompletion: '2025-04-20',
+    primaryEndpoint: 'MG-ADL Score Improvement',
+    secondaryEndpoints: ['QMG Score', 'Steroid-sparing Effect', 'Exacerbation Rate', 'Quality of Life'],
+    studyDuration: '52 weeks',
+    retentionRate: 93,
+    dropoutRate: 7,
+    safetyProfile: 'Well-tolerated, mild URI infections, manageable hypoglobulinemia',
+    previousResults: 'Phase 2: Rapid onset, 68% achieved MG-ADL response by Week 4',
+    mechanism: 'High affinity FcRn antagonist reducing pathogenic IgG antibodies',
+    keyInvestigators: ['Dr. James Howard - University of North Carolina', 'Dr. Saiju Jacob - University Hospitals Cleveland'],
+    marketOpportunity: 1200000000,
+    status: 'Active, recruiting'
   }
 ]
 
@@ -1498,7 +1768,10 @@ export default function PharmaDashboard() {
         </div>
 
         {/* Charts Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
+        <div className={cn(
+          "grid gap-6 mb-6",
+          viewMode === 'companies' ? "grid-cols-1 lg:grid-cols-3" : "grid-cols-1 lg:grid-cols-2"
+        )}>
           <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6">
             <h3 className="text-sm font-semibold text-slate-900 mb-4 flex items-center gap-2">
               <BarChart3 className="w-4 h-4 text-blue-600" />
@@ -1558,6 +1831,65 @@ export default function PharmaDashboard() {
               </RePieChart>
             </ResponsiveContainer>
           </div>
+
+          {viewMode === 'companies' && (
+            <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6">
+              <h3 className="text-sm font-semibold text-slate-900 mb-4 flex items-center gap-2">
+                <TrendingUp className="w-4 h-4 text-blue-600" />
+                Top 10 Companies by Revenue
+              </h3>
+              <ResponsiveContainer width="100%" height={200}>
+                <AreaChart 
+                  data={allCompanies
+                    .filter(c => c.revenue > 0)
+                    .sort((a, b) => b.revenue - a.revenue)
+                    .slice(0, 10)
+                    .map(c => ({ 
+                      name: c.ticker, 
+                      revenue: c.revenue / 1000000000,
+                      pharma: PHARMA_COMPANIES.includes(c) ? c.revenue / 1000000000 : 0,
+                      biotech: BIOTECH_COMPANIES.includes(c) ? c.revenue / 1000000000 : 0
+                    }))}
+                  layout="vertical"
+                  margin={{ left: 40 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
+                  <XAxis type="number" tick={{fontSize: 10}} />
+                  <YAxis dataKey="name" type="category" tick={{fontSize: 10}} width={50} />
+                  <Tooltip 
+                    contentStyle={{borderRadius: 8, border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)'}}
+                    formatter={(value: any) => [`$${Number(value).toFixed(1)}B`, 'Revenue']}
+                  />
+                  <Area 
+                    type="monotone" 
+                    dataKey="pharma" 
+                    stackId="1" 
+                    stroke="#0066A1" 
+                    fill="#0066A1" 
+                    fillOpacity={0.8}
+                  />
+                  <Area 
+                    type="monotone" 
+                    dataKey="biotech" 
+                    stackId="1" 
+                    stroke="#8B5CF6" 
+                    fill="#8B5CF6" 
+                    fillOpacity={0.8}
+                  />
+                </AreaChart>
+              </ResponsiveContainer>
+              <div className="flex justify-center gap-4 mt-3">
+                <div className="flex items-center gap-1.5 text-xs">
+                  <span className="w-3 h-3 rounded bg-[#0066A1]" />
+                  <span className="text-slate-600">Pharma</span>
+                </div>
+                <div className="flex items-center gap-1.5 text-xs">
+                  <span className="w-3 h-3 rounded bg-[#8B5CF6]" />
+                  <span className="text-slate-600">Biotech</span>
+                </div>
+              </div>
+            </div>
+          )}
         </div>
 
         {/* Content */}
